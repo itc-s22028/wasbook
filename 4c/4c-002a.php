@@ -33,6 +33,6 @@ $imgurl = '4c-003.php?file=' . basename($tofile);
 <body>
 <a href="<?php echo htmlspecialchars($imgurl); ?>"><?php
  echo htmlspecialchars($orgfile, ENT_NOQUOTES, 'UTF-8'); ?></a>
-をアップロードしました<BR>
+をアップロードしました<br>
 <img src="<?php echo htmlspecialchars($imgurl); ?>">
 </body>
